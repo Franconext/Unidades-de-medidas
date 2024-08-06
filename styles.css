@@ -1,0 +1,57 @@
+.caja {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #6b7280;
+
+  }
+  
+  .caja-mediana {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #e11d48;
+    margin-bottom: 20px;
+    /* Agregar este font-size al explicar unidades relativas */
+    font-size: 20px; /* Originalmente 10px, ahora duplicado a 20px */
+    /* 20px */
+  }
+  .caja-grande {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #8c54fb;
+  }
+  
+  /* unidades relativas */
+  
+  .em {
+   font-size: 4em; /* Originalmente 2em, ahora duplicado a 4em */
+    /* 40px (2em basado en 20px de .caja-mediana) -> 80px (4em basado en 20px de .caja-mediana) */
+  }
+  
+  .rem {
+    font-size: 4rem; /* Originalmente 2rem, ahora duplicado a 4rem */
+    /* 32px (2rem basado en 16px de font-size del html) -> 64px (4rem basado en 16px de font-size del html) */
+  }
+  
+  .porcentaje {
+    width: 50%;
+    height: 50%;
+    background-color: #8c54fb;
+  }
+  
+  .vh {
+    /* No esta relacionado a la caja si no al viewport */
+    height: 10vh;
+    background-color: #8c54fb;
+  }
+  
+  .vw {
+    /* No esta relacionado a la caja si no al viewport */
+    width: 10vw;
+    background-color: #8c54fb;
+  }
